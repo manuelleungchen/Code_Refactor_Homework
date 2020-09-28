@@ -1,27 +1,27 @@
 
 /* General CSS Style */
 
-* {         /* Makes the website content cover the whole browser window */
+* {                                 /* Makes the website content cover the whole browser window */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {      /* Adds a general white background */
+body {                              /* Adds a general white background */
     background-color: #d9dcd6;
 }
 
-a {       /* Makes All link white and no underline */
+a {                                 /* Makes All link white and no underline */
     color: #ffffff;
     text-decoration: none;
 }
 
-p {     /* Set all paragraph text to 16 px  */
+p {                                 /* Set all paragraph text to 16 px  */
     font-size: 16px;
 }
 
-
 /* Style for the header tag elements */
+
 header {          
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,16 +29,16 @@ header {
     color: #ffffff;
 }
 
-header h1 {                /* Format the company name */
+header h1 {                         /* Format the company name */
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {         /* Add a different color to the letter seo of the company name.  */
+header h1 .seo {                    /* Add a different color to the letter seo of the company name.  */
     color: #d9dcd6;
 }
 
-header nav {
+header nav {                        /* Format the size and font the nav menu */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -46,18 +46,18 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+header nav ul {                     /* Remove the punctuation mark on list */
     list-style-type: none;
 }
 
-header nav ul li {
+header nav ul li {                  /* Groups all Nav link on the same line */
     display: inline-block;
     margin-left: 25px;
 }
 
 /* Style for the Main tag elements */
 
-.Main_image {         /* Format the Main Image of the welcome page */
+.Main_image {                       /* Format the Main Image of the welcome page */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -65,23 +65,23 @@ header nav ul li {
     background-position: center;
 }
 
-.float-left {
+.float-left {                       /* Float image to left side */
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right {                      /* Float image to right side */
     float: right;
     margin-left: 25px;
 }
 
-.content {
+.content {                          /* Format the main content */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content section {
+.content section {                  /* Style all the feature on the content  */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -90,17 +90,16 @@ header nav ul li {
     color: #ffffff;
 }
 
-.content section img {
+.content section img {              /* Limit the Height of the section image */
     max-height: 200px;
 }
 
-.content section h2 {
+.content section h2 {               /* Format the header of each section */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
-.benefits {
+.benefits {                         /* Style the asides on the right side */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -111,31 +110,30 @@ header nav ul li {
     background-color: #2589bd;
 }
 
-.benefit-aside {
+.benefit-aside {                    /* Set the margin and font color */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-aside h3 {
+.benefit-aside h3 {                 /* Set the Font Size for each benefit name */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-aside img {
+.benefit-aside img {                /* Format the icon for each benefit */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
 /* Style for the footer tag elements */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
