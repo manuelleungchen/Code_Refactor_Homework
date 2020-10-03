@@ -1,6 +1,5 @@
 
 /* General CSS Style */
-
 * {                                 /* Makes the website content cover the whole browser window */
     box-sizing: border-box;
     padding: 0;
@@ -21,7 +20,6 @@ p {                                 /* Set all paragraph text to 16 px  */
 }
 
 /* Style for the header tag elements */
-
 header {          
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,7 +32,7 @@ header h1 {                         /* Format the company name */
     font-size: 48px;
 }
 
-header h1 .seo {                    /* Add a different color to the letter seo of the company name.  */
+header h1 #logo-custom-color {      /* Add a different color to the letter seo of the company name.  */
     color: #d9dcd6;
 }
 
@@ -56,8 +54,7 @@ header nav ul li {                  /* Groups all Nav link on the same line */
 }
 
 /* Style for the Main tag elements */
-
-.Main_image {                       /* Format the Main Image of the welcome page */
+#welcome-page-image {               /* Format the Main Image of the welcome page */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -136,4 +133,8 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+
+#heart-icon {                       /* Set color on heart icon on footer */
+    color: red;
 }
