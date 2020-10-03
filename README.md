@@ -1,5 +1,4 @@
-![languages](https://img.shields.io/github/languages/top/manuelleungchen/Code_Refactor_Homework)![license](https://img.shields.io/github/license/manuelleungchen/Code_Refactor_Homework?style=plastic)
-![repo size](https://img.shields.io/github/repo-size/manuelleungchen/Code_Refactor_Homework)
+![languages](https://img.shields.io/github/languages/top/manuelleungchen/Code_Refactor_Homework) ![license](https://img.shields.io/github/license/manuelleungchen/Code_Refactor_Homework?style=plastic) ![repo size](https://img.shields.io/github/repo-size/manuelleungchen/Code_Refactor_Homework)
 # Horiseon Website - Code Refactor
 
 ## Description
